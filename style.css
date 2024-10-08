@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+html {
+  background: url(lienzo.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.letra {
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+}
+
+.titulo {
+  justify-content: center;
+  margin: 15px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.mancha {
+  width: 85px;
+  height: 80px;
+}
+
+.h {
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta {
+  width: 170px;
+  border: black solid 5px;
+  border-radius: 5px;
+  margin: 30px;
+  height: 415px;
+}
+
+.d {
+  width: 160px;
+  height: 100px;
+}
+
+.yo {
+  width: 215px;
+}
+
+.t {
+  width: 225px;
+  border: black solid 5px;
+  border-radius: 5px;
+  height: 365px;
+}
+
+.g {
+  justify-content: center;
+  align-items: center;
+}
+
+.r {
+  width: 400px;
+}
+
+.contacto {
+  margin: 20px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 45px 45px 20px;
+  margin-top: 50px;
+  background-image: url(imagenes/antiguo.jpg);
+  box-shadow: 0px 5px 10px #282828, 0 0 0 10px #1b301d inset;
+  color: white;
+
+}
+
+.contacto label {
+  display: block;
+  font-weight: bold;
+}
+
+.contacto div {
+  margin-bottom: 15px;
+}
+
+.insta {
+  width: 25px;
+  border-radius: 10px;
+}
+
+.audio {
+  width: 200px;
+
+}
+
+.l{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+  font-size: 20px;
+
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.Btn::before {
+  position: absolute;
+  
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+

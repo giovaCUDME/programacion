@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+  color: gold;
+}
+
+.row {
+  display: flex;
+}
+
+html {
+  background: url(campo.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.fenix {
+  width: 200px;
+}
+
+.titulo {
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  list-style-type: none;
+}
+
+.l {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.imagen {
+  width: 240px;
+  height: 190px;
+  padding: 10px;
+}
+
+.j {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.n {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.d {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.volver {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: gold;
+}
+
+.e {
+  background: rgb(196, 214, 73);
+  background: -moz-linear-gradient(0deg, rgba(196, 214, 73, 1) 0%, rgba(179, 39, 57, 1) 46%, rgba(203, 55, 193, 1) 68%);
+  background: -webkit-linear-gradient(0deg, rgba(196, 214, 73, 1) 0%, rgba(179, 39, 57, 1) 46%, rgba(203, 55, 193, 1) 68%);
+  background: linear-gradient(0deg, rgba(196, 214, 73, 1) 0%, rgba(179, 39, 57, 1) 46%, rgba(203, 55, 193, 1) 68%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4d649", endColorstr="#cb37c1", GradientType=1);
+  border-radius: 10px;
+}

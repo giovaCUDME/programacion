@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+}
+
+.row {
+  display: flex;
+}
+
+html {
+  background: url(mar.webp) no-repeat center fixed;
+  background-size: cover;
+}
+
+.imagen {
+  width: 240px;
+  height: 170px;
+  padding: 10px;
+}
+
+.p {
+  color: white;
+  list-style-type: none;
+}
+
+.l {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.j {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.n {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.d {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.volver {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.h {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.e {
+  background: rgb(37, 53, 110);
+  background: -moz-linear-gradient(0deg, rgba(14, 32, 97, 1) 19%, rgba(55, 111, 203, 1) 80%);
+  background: -webkit-linear-gradient(0deg, rgba(14, 32, 97, 1) 19%, rgba(55, 111, 203, 1) 80%);
+  background: linear-gradient(0deg, rgba(14, 32, 97, 1) 19%, rgba(55, 111, 203, 1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e2061", endColorstr="#376fcb", GradientType=1);
+  border-radius: 10px;
+}
+
+.audio {
+  width: 230px;
+}
+
+.serpiente{
+  width: 200px;
+}

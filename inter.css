@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: initial;
+
+}
+
+.row {
+  display: flex;
+}
+
+html {
+  background: url(selva.webp) no-repeat center fixed;
+  background-size: cover;
+}
+
+.titulo {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.tigre {
+  width: 270px;
+}
+
+.p {
+  color: white;
+  list-style-type: none;
+}
+
+.n {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.d {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.imagen {
+  width: 240px;
+  height: 160px;
+  padding: 10px;
+}
+
+.h{
+  font-size: 30px;
+}
+
+.volver {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.e{
+  background: rgb(69,184,68);
+background: -moz-linear-gradient(0deg, rgba(69,184,68,1) 20%, rgba(120,133,116,1) 35%, rgba(60,129,17,1) 57%);
+background: -webkit-linear-gradient(0deg, rgba(69,184,68,1) 20%, rgba(120,133,116,1) 35%, rgba(60,129,17,1) 57%);
+background: linear-gradient(0deg, rgba(69,184,68,1) 20%, rgba(120,133,116,1) 35%, rgba(60,129,17,1) 57%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#45b844",endColorstr="#3c8111",GradientType=1);
+border-radius: 10px;
+}
